@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+networkx
+python-louvain
+pyvis
+shap
+matplotlib
+kaggle
+streamlit
