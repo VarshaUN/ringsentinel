@@ -5,7 +5,7 @@
 ## The problem
 
 Point-in-time fraud models score one transaction at a time. But real merchant
-losses — return abuse, chargeback fraud, coordinated account abuse — usually
+losses return abuse, chargeback fraud, coordinated account abuse , usually
 involve **multiple accounts sharing infrastructure**: the same card, device,
 or address, acting together. A model that only looks at one transaction at a
 time structurally cannot see this pattern.
@@ -19,7 +19,7 @@ evaluation on a held-out test set.
 ## Dataset
 
 [IEEE-CIS Fraud Detection](https://www.kaggle.com/competitions/ieee-fraud-detection)
-(Kaggle) — 590,540 real, anonymized e-commerce transactions over a 182-day
+(Kaggle) , 590,540 real, anonymized e-commerce transactions over a 182-day
 window, with card, address, email-domain, and device identifiers, and a
 ground-truth `isFraud` label (base rate 3.50%).
 
@@ -43,11 +43,11 @@ device/email used as bonus edges where present rather than the backbone.
 This is called out explicitly rather than glossed over, since it directly
 affects recall on device-only fraud patterns.
 
-Fraud base rate is 3.5% — accuracy is not a meaningful metric here;
+Fraud base rate is 3.5% accuracy is not a meaningful metric here;
 precision/recall/PR-AUC on a **time-based** split are used throughout.
 
 ## Scope note
 
 This is a **detection/review tool**, not an automated decision system. Output
 is a risk score and a human-readable evidence report intended for a human
-reviewer to act on — it never auto-blocks or auto-denies a transaction.
+reviewer to act on it never auto-blocks or auto-denies a transaction.
