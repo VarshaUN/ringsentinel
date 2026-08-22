@@ -1,0 +1,6 @@
+{
+  "model_a_pr_auc": 0.5166,
+  "model_b_pr_auc": 0.5580726235479304,
+  "improvement": 0.041472623547930465,
+  "top_feature": "ring_fraud_rate_so_far"
+}

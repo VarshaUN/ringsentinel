@@ -1,0 +1,11 @@
+{
+  "fp_cost_assumption": 200,
+  "fn_cost_assumption": 2500,
+  "model_a_optimal_threshold": 0.060000000000000005,
+  "model_a_min_cost": 4693500.0,
+  "model_b_optimal_threshold": 0.060000000000000005,
+  "model_b_min_cost": 4527600.0,
+  "savings_absolute": 165900.0,
+  "savings_per_transaction": 1.404646594642192,
+  "test_set_size": 118108
+}
